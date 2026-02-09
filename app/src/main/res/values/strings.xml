@@ -6,4 +6,5 @@
     <string name="activities_field">Activities:</string>
     <string name="clear_btn">Clear</string>
     <string name="submit_btn">Submit</string>
+    <string name="add_more_button">Add More</string>
 </resources>
