@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Resume Template App</string>
+    <string name="objective_field">Objective Field</string>
+    <string name="skills_field">Skills Field</string>
+    <string name="projects_field">Projects Field</string>
+    <string name="activities_field">Activities Field</string>
 </resources>
