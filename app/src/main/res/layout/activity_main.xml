@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         app:cardCornerRadius="15dp"
         app:cardElevation="100dp"
-        android:layout_margin="50dp"
+        android:layout_margin="25dp"
         >
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -123,7 +123,7 @@
                         android:id="@+id/objectives_field_heading"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="@string/objective_field"
+                        android:text="@string/objectives_field"
                         android:textColor="@color/black"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
