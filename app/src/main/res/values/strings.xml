@@ -4,4 +4,6 @@
     <string name="skills_field">Skills:</string>
     <string name="projects_field">Projects:</string>
     <string name="activities_field">Activities:</string>
+    <string name="clear_btn">Clear</string>
+    <string name="submit_btn">Submit</string>
 </resources>
