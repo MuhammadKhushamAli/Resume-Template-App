@@ -1,6 +1,10 @@
 package com.example.resumetemplateapp;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +13,21 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+    //Personal Detail Section
+    ImageView profilePhoto;
+    TextView name;
+    TextView email;
+    TextView ph_no;
+    TextView address;
+
+    ImageButton nameEdit;
+    ImageButton emailEdit;
+    ImageButton ph_noEdit;
+    ImageButton addressEdit;
+
+    // Professional Detail Section
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

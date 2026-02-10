@@ -57,7 +57,7 @@
                         >
                         <TextView
                             android:id="@+id/name"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:background="@color/bubble_blue"
                             android:text="@string/name"
@@ -66,8 +66,9 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintEnd_toStartOf="@id/name_field_edit"
                             app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintWidth_percent="0.7"
                             />
-                            <ImageView
+                            <ImageButton
                                 android:id="@+id/name_field_edit"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -77,6 +78,7 @@
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 android:background="@color/bubble_blue"
+                                app:layout_constraintWidth_percent="0.3"
                                 />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -92,7 +94,7 @@
                         >
                         <TextView
                             android:id="@+id/email"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:background="@color/bubble_blue"
                             android:text="@string/email"
@@ -101,10 +103,11 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintEnd_toStartOf="@id/email_field_edit"
                             app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintWidth_percent="0.7"
                             />
-                            <ImageView
+                            <ImageButton
                                 android:id="@+id/email_field_edit"
-                                android:layout_width="wrap_content"
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:src="@android:drawable/ic_menu_edit"
                                 app:layout_constraintTop_toTopOf="parent"
@@ -112,6 +115,7 @@
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 android:background="@color/bubble_blue"
+                                app:layout_constraintWidth_percent="0.3"
                                 />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -127,7 +131,7 @@
                         >
                         <TextView
                             android:id="@+id/ph_no"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:background="@color/bubble_blue"
                             android:text="@string/ph_no"
@@ -136,10 +140,12 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintEnd_toStartOf="@id/ph_no_field_edit"
                             app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintWidth_percent="0.7"
+
                             />
-                            <ImageView
+                            <ImageButton
                                 android:id="@+id/ph_no_field_edit"
-                                android:layout_width="wrap_content"
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:src="@android:drawable/ic_menu_edit"
                                 app:layout_constraintTop_toTopOf="parent"
@@ -147,6 +153,7 @@
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 android:background="@color/bubble_blue"
+                                app:layout_constraintWidth_percent="0.3"
                                 />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -162,7 +169,7 @@
                         >
                         <TextView
                             android:id="@+id/address"
-                            android:layout_width="wrap_content"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:background="@color/bubble_blue"
                             android:text="@string/address"
@@ -171,10 +178,11 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintEnd_toStartOf="@id/address_field_edit"
                             app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintWidth_percent="0.7"
                             />
-                            <ImageView
+                            <ImageButton
                                 android:id="@+id/address_field_edit"
-                                android:layout_width="wrap_content"
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:src="@android:drawable/ic_menu_edit"
                                 app:layout_constraintTop_toTopOf="parent"
@@ -182,6 +190,7 @@
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 android:background="@color/bubble_blue"
+                                app:layout_constraintWidth_percent="0.3"
                                 />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -221,10 +230,11 @@
                         app:layout_constraintBottom_toTopOf="@id/objectives_text"
                         app:layout_constraintHorizontal_weight="0.7"
                         />
-                    <ImageView
+                    <ImageButton
                         android:id="@+id/objectives_field_edit"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:background="@color/white"
                         android:src="@android:drawable/ic_menu_edit"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toEndOf="@id/objectives_field_heading"
@@ -266,10 +276,11 @@
                         app:layout_constraintBottom_toTopOf="@id/skills_text"
                         app:layout_constraintHorizontal_weight="0.7"
                         />
-                    <ImageView
+                    <ImageButton
                         android:id="@+id/skills_field_edit"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:background="@color/white"
                         android:src="@android:drawable/ic_menu_edit"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toEndOf="@id/skills_field_heading"
@@ -313,10 +324,11 @@
                         app:layout_constraintBottom_toTopOf="@id/projects_text"
                         app:layout_constraintHorizontal_weight="0.7"
                         />
-                    <ImageView
+                    <ImageButton
                         android:id="@+id/projects_field_edit"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:background="@color/white"
                         android:src="@android:drawable/ic_menu_edit"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toEndOf="@id/projects_field_heading"
@@ -360,10 +372,11 @@
                         app:layout_constraintBottom_toTopOf="@id/activities_text"
                         app:layout_constraintHorizontal_weight="0.7"
                         />
-                    <ImageView
+                    <ImageButton
                         android:id="@+id/activities_field_edit"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:background="@color/white"
                         android:src="@android:drawable/ic_menu_edit"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toEndOf="@id/activities_field_heading"
