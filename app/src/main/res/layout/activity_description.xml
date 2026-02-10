@@ -32,7 +32,7 @@
                 android:id="@+id/DescriptionInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Here: "
+                android:hint="@string/default_hint"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -40,6 +40,7 @@
                 android:layout_marginBottom="20dp"
                 >
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/descriptiveInput"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     />

@@ -213,9 +213,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 i.putExtra(keys.name_key, userName);
             }
-            else{
-                i.putExtra(keys.name_key, "Enter Your Name Here");
-            }
+            i.putExtra(keys.hint_key, "Enter Your Name Here");
             i.putExtra(keys.universal_key, keys.name_key);
             launcher.launch(i);
         });
@@ -229,10 +227,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 i.putExtra(keys.email_key, userEmail);
             }
-            else
-            {
-                i.putExtra(keys.email_key, "Enter Your Email Here");
-            }
+            i.putExtra(keys.hint_key, "Enter Your Email Here");
             i.putExtra(keys.universal_key, keys.email_key);
             launcher.launch(i);
         });
@@ -246,10 +241,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 i.putExtra(keys.ph_no_key, userPh_no);
             }
-            else
-            {
-                i.putExtra(keys.ph_no_key, "Enter Your Phone Number Here");
-            }
+            i.putExtra(keys.hint_key, "Enter Your Phone Number Here");
             i.putExtra(keys.universal_key, keys.ph_no_key);
             launcher.launch(i);
         });
@@ -263,10 +255,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 i.putExtra(keys.address_key, userAddress);
             }
-            else
-            {
-                i.putExtra(keys.address_key, "Enter Your Address Here");
-            }
+            i.putExtra(keys.hint_key, "Enter Your Address Here");
             i.putExtra(keys.universal_key, keys.address_key);
             launcher.launch(i);
         });
@@ -281,10 +270,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 i.putExtra(keys.objective_key, userObjectives);
             }
-            else
-            {
-                i.putExtra(keys.objective_key, "Enter Your Objectives");
-            }
+            i.putExtra(keys.hint_key, "Enter Your Objectives Here");
             i.putExtra(keys.universal_key, keys.objective_key);
             launcher.launch(i);
         });

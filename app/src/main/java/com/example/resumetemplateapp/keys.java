@@ -10,4 +10,5 @@ public class keys {
     public static final String projects_key = "Projects";
     public static final String activities_key = "Activities";
     public static final String universal_key = "Universal";
+    public static final String hint_key = "Hint";
 }
