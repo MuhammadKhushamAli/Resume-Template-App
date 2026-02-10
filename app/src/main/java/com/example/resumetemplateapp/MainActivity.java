@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
+//        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         email.setOnClickListener((v) -> {
-            String userEmail = v.getText().toString();
+            String userEmail = email.getText().toString();
 
             if (!userEmail.isEmpty()) {
                 Intent i = new Intent(Intent.ACTION_SENDTO);
@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         ph_no.setOnClickListener((v) -> {
-            String userPh_no = v.getText().toString();
+            String userPh_no = ph_no.getText().toString();
 
             if(!userPh_no.isEmpty())
             {
@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         address.setOnClickListener((v) -> {
-            String userAddress = v.getText().toString();
+            String userAddress = address.getText().toString();
 
             if(!userAddress.isEmpty())
             {
@@ -329,7 +329,6 @@ public class MainActivity extends AppCompatActivity {
             text_view.setId(View.generateViewId());
             text_view.setText(str_arr[it]);
             text_view.setTextColor(Color.BLACK);
-            text_view.setVisibility(VISIBLE);
 
             layout.addView(text_view);
 
